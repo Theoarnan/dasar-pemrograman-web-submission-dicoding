@@ -1,0 +1,119 @@
+/* Setting Header */
+.header {
+    width: 960px;
+    height: 240px;
+    background: #1E1E1E;
+    margin: auto;-color: #eee;
+    text-align: center;
+}
+.header h1 {
+    background: #1E1E1E;
+    color: #FFFFFF;
+}
+
+/* Setting Container -> Body */
+.container {
+    align-self: center;
+    width: 960px;
+    margin: 0 auto;
+}
+    .header {
+    background-color: rgb(255, 254, 254);
+    min-height: 50px;
+    }
+    .logo img {
+        margin-bottom: 25px;
+        width: 200px;
+        align-self: auto;
+    }
+    #menu {
+        width: 960px;
+        height: 240px;
+        background: #1E1E1E;
+        margin: 0 auto;-color: #eee;
+    }
+    .menu ul {
+        margin: 0;
+        padding: 0px;
+        list-style: none;
+        line-height: normal;
+        background: #1E1E1E;
+        color: #FFFFFF;
+    }
+    .menu ul li {
+        display: inline-block;
+        position: relative;
+    }
+    .menu ul li a {
+        padding: 15px 30px 10px 30px;
+        text-decoration: none;
+        color:#FFFFFF;
+    }
+    ul.submenu {
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        position: absolute;
+        top: 20px;
+        display: none;
+    }
+    .menu ul li:hover ul.submenu  {
+        display: block;
+        position: absolute;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color:#FFFFFF;
+    }
+
+/* Setting Fotter */
+.footer {
+    color: #FFFFFF;
+    text-align: center;
+    min-height: 25px;
+    background: #1E1E1E;
+}
+
+/* Setting Content */
+.content {
+    padding: 0 0 1em 0;
+    margin-top: 80px;
+    background-color: rgb(219, 219, 219);
+    min-height: 500px; 
+}
+
+.fotoProfil{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:100px;
+    margin-right:100px;
+    display:block;
+    margin: auto;
+    width: 300px;
+    height:250px;
+}
+
+.content h2 {
+    font-size: 2.0em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.content h3 {
+    margin-left: 20px;
+    font-size: 1.0em;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.4;
+    color: #345;
+}
+
+.content h3 p {
+    text-align: left;
+}
+.content h3 strong {
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: 800;
+    color: #345;
+}
